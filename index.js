@@ -2,5 +2,5 @@
 const Db = require('./db');
 
 module.exports = () => ({
-  db: { '~': new Db() }
+  db: { '@': new Db() }
 });
