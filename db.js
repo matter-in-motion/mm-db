@@ -7,8 +7,8 @@ const Db = function() {
 Db.prototype.__initRequired = true;
 
 Db.prototype.__init = function(units) {
-  const settings = units.require('core.settings').db;
-  this.instance = units.require(settings);
+  const db = units.require('core.settings').require('db');
+  this.instance = units.require(db);
 };
 
 Db.prototype.__instance = function() {
