@@ -1,6 +1,6 @@
 {
   "name": "mm-db",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple default database shortcut extension for Matter In Motion",
   "main": "index.js",
   "repository": {
