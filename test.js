@@ -6,7 +6,6 @@ const createApp = require('mm-test').createApp;
 process.env.NODE_ENV = 'production';
 const app = createApp({
   extensions: [
-    'http',
     'rethinkdb',
     extension
   ],
@@ -16,11 +15,6 @@ const app = createApp({
   rethinkdb: {
     db: 'test',
     silent: true
-  },
-
-  http: {
-    port: 3000,
-    host: '0.0.0.0'
   }
 });
 
