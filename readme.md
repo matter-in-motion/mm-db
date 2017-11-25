@@ -7,7 +7,7 @@ This extension provides a simple shortcut to define default databse in your app.
 
 ## Usage
 
-[Extensions installation intructions](https://github.com/matter-in-motion/mm/blob/master/docs/extensions.md)
+[Extensions installation instructions](https://github.com/matter-in-motion/mm/blob/master/docs/extensions.md)
 
 **Note! Put this extension after all your database etxtensions in the extensions settings.**
 
