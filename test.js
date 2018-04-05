@@ -16,7 +16,7 @@ const app = createApp({
     db: 'test',
     silent: true
   }
-});
+}, { default: false });
 
 test('gets default database', t => {
   const rethinkdb = app.units.require('db.rethinkdb');
